@@ -5,3 +5,5 @@ class Kame(turtle.Turtle):
 		super(Kame,self).__init__()
 		self.shape('turtle')
 		self.shapesize(2,2)
+
+# 自動運伝のアルゴリズムを考える
