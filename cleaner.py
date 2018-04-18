@@ -1,9 +1,7 @@
 import turtle
 
 class Kame(turtle.Turtle):
-    pass
-
-kame_test = Kame()
-kame_test.shape('turtle')
-kame_test.shapesize(2,2)
-
+	def __init__(self):
+		super(Kame,self).__init__()
+		self.shape('turtle')
+		self.shapesize(2,2)
