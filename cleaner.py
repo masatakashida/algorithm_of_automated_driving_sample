@@ -11,7 +11,7 @@ class Line:
 		self.y0 = float(y0)
 
 	def get_y(self,x):
-		return self.slp * (x-self.x0) + self.y0
+		return self.slp * (x - self.x0) + self.y0
 
 	def get_x(self,y):
 		return self.x0 + (y - self.y0) / self.slp
