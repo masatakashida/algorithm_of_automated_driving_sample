@@ -4,6 +4,9 @@
 ## Setup
 
 ```
+# 任意のディレクトリでローカルに
+$ git clone git@github.com:masatakashida/algorithm_of_automated_driving_sample.git
+
 # pythonインタプリタ使う
 $ python
 
